@@ -1,0 +1,35 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android build
+**/android/.gradle
+**/android/local.properties
+**/android/app/build/
+**/android/.idea
+**/*.iml
+
+# C++ Build artifacts
+**/build_native*/
+**/*.o
+**/core_engine/*.o
+**/core_engine/src/*.o
+**/core_engine/libstreamvex.so
+**/core_engine/test_ffi_runner
+**/core_engine/test_llama_load
+
+# Large weights / GGUF model files (downloaded dynamically or picked from storage)
+*.gguf
+*.bin
+models/*.gguf
+core_engine/models/*.gguf
+
+# Keep prebuilt Android native libraries
+!apps/vexdesk_client/android/app/src/main/jniLibs/**/*.so
+
+# OS files
+.DS_Store
+Thumbs.db

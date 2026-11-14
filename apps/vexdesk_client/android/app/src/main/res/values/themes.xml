@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@color/vexdesk_background</item>
+        <item name="android:statusBarColor">@color/vexdesk_background</item>
+        <item name="android:navigationBarColor">@color/vexdesk_background</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@color/vexdesk_background</item>
+        <item name="android:statusBarColor">@color/vexdesk_background</item>
+        <item name="android:navigationBarColor">@color/vexdesk_background</item>
+    </style>
+    <style name="Theme.VexDesk" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@color/vexdesk_background</item>
+        <item name="android:statusBarColor">@color/vexdesk_background</item>
+        <item name="android:navigationBarColor">@color/vexdesk_background</item>
+    </style>
+</resources>
